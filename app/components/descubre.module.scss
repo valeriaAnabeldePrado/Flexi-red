@@ -1,0 +1,128 @@
+@import "reutilizables.module.scss";
+.container {
+  color: #fff;
+  background-color: #273069;
+  padding: $margenGeneral;
+  margin: 1% 0 1% 0;
+  transition: 0.5s all ease-in-out;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0 5% 0;
+  gap: 20px;
+}
+.box {
+  flex-wrap: wrap;
+  flex-grow: 2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.box2 {
+  @include estiloFontComun(end);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 30vw;
+  margin-bottom: 2rem;
+}
+.funteH2 {
+  @include subTitulos(#fff);
+  margin-bottom: 2rem;
+  width: 60%;
+}
+.boxes h3 {
+  font-size: $tamanioFuentesCard;
+}
+
+.boxes {
+  border: solid 3px;
+  border-radius: 2rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  height: 550px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.boxes:hover {
+  transform: scale(1.2);
+}
+.box:nth-child(2) {
+  margin-top: 4%;
+}
+
+//--------------//MEDIA Q TABLET//--------------//
+
+@media only screen and (max-width: 1350px) {
+  .box:nth-child(1) {
+    align-self: flex-start;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .boxes {
+    height: 500px;
+    width: 300px;
+  }
+  .main {
+    margin: 8% 0 0 0;
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .funteH2 {
+    margin-bottom: 4rem;
+  }
+  .boxes {
+    height: 450px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 684px) {
+  .funteH2 {
+    width: 80%;
+  }
+  .container {
+    margin: 10% 0 0 0;
+  }
+
+  .box:nth-child(2) {
+    margin-right: 2rem;
+  }
+  .boxes {
+    height: 390px;
+    width: 220px;
+  }
+  .box2 {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 563px) {
+  .box:nth-child(2) {
+    margin-right: 0;
+  }
+  .funteH2 {
+    width: 100%;
+    text-align: center;
+  }
+  .box2 p {
+    width: 80vw;
+    text-align: center;
+  }
+  .main {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .box:nth-child(1) {
+    align-self: center;
+  }
+}

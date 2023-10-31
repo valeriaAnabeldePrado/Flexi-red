@@ -1,0 +1,36 @@
+@import "reutilizables.module.scss";
+.container {
+  padding: 8% 10% 8% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.box {
+  z-index: 2;
+  text-align: center;
+  padding: 7rem 4rem;
+  width: clamp(300px, 30vw, 40vw);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  @include estiloFontComun(center);
+}
+//--------------//MEDIA Q TABLET//--------------//
+@media only screen and (max-width: 1000px) {
+  .box {
+    padding: 6rem 3rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 10%;
+  }
+  .box {
+    padding: 5rem 2.5rem;
+  }
+}

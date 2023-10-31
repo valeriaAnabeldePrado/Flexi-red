@@ -1,0 +1,37 @@
+{
+  "name": "flexired",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "bootstrap": "^5.3.0-alpha3",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "framer-motion": "^10.12.10",
+    "next": "13.4.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-scroll": "^1.8.9",
+    "sass": "^1.63.6",
+    "styled-components": "^6.0.0-rc.1",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.7",
+    "@types/react": "18.2.33",
+    "typescript": "5.2.2"
+  }
+}

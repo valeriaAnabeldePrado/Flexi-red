@@ -1,0 +1,8 @@
+.container {
+  background-color: var(--bgColor-main);
+}
+.root {
+  --myColor-orange: #ec661b;
+  --myColor-mainWhite: #e0e2e2;
+  --myColor-mainBlue: #273069;
+}

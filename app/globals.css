@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/warm-stories");
+:root {
+  --myColor-orange: #ec661b;
+  --bgColor-main: #e0e2e2;
+  --myColor-blue: #273069;
+  --font: "WARM STORIES", sans-serif;
+  --interlineButton: 3.5px;
+  --fontSizeButton: 1.5em;
+}

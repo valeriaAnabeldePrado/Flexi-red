@@ -1,0 +1,39 @@
+$tamaño-fuente: 2em;
+$colorA: #ec661b;
+$colorBlanco: #e0e2e2;
+$colorBlue: #273069;
+$margenGeneral: 0 10% 0 10%;
+$fontNav: "Avenir", sans-serif;
+$tamanioFuentesCard: clamp(1.2rem, 2.5vw, 2rem);
+@import url("https://fonts.cdnfonts.com/css/monzane");
+@import url("https://fonts.cdnfonts.com/css/avenir");
+@mixin estiloFuentes($fontZnav) {
+  font-family: "Avenir", sans-serif;
+  font-size: $fontZnav;
+  font-weight: bold;
+}
+@mixin fontButton($fontZnav) {
+  font-family: "Avenir", sans-serif;
+  font-size: $fontZnav;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@mixin estiloFontComun($alineacionText) {
+  font-family: "Avenir", sans-serif;
+  font-size: clamp(1em, 2vw, 1.2em);
+
+  text-align: $alineacionText;
+}
+
+@mixin subTitulos($colorFont) {
+  color: $colorFont;
+  font-family: "Monzane", sans-serif;
+  font-size: clamp(1.5rem, 3.5vw, 3rem);
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fontStyle {
+  @include estiloFuentes(1em);
+}

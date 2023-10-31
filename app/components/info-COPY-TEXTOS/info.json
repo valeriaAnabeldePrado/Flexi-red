@@ -1,0 +1,124 @@
+{
+  "secciones": [
+    {
+      "name": "Conoce nuestros beneficios",
+      "beneficios": [
+        {
+          "id": 1,
+          "name": "Beneficio uno",
+          "contenido": "Información dentro del beneficio uno."
+        },
+        {
+          "id": 2,
+          "name": "Beneficio dos",
+          "contenido": "Información dentro del beneficio dos."
+        },
+        {
+          "id": 3,
+          "name": "Beneficio tres",
+          "contenido": "Información dentro del beneficio tres."
+        }
+      ]
+    },
+    {
+      "name": "Nuestros servicios para cliente persona",
+      "contenido": "Descripción de los servicios para clientes individuales. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quidem tempore reprehenderit debitis cumque necessitatibus. Sequi, amet temporibus quas quam provident omnis atque facilis fuga accusamus odio dolor dolorum fugiat.",
+      "infoInternaPersona": [
+        {
+          "informacion": "Card uno",
+          "precio": 1000.0,
+          "descripcionUno": "info extra ipsum dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "informacion": "Card dos",
+          "precio": 1200.0,
+          "descripcionDos": "info extra 2 ipsum dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "informacion": "Card tres",
+          "precio": 900.0,
+          "descripcionTres": "info extra 3 ipsum dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "name": "Servicio para cliente empresa",
+      "contenido": "Información sobre los servicios para empresas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt corporis quam ex consectetur rerum accusantium aliquam! Necessitatibus debitis reiciendis, inventore cumque velit, aliquam quisquam repudiandae facere assumenda illo beatae.",
+      "infoInternaEmpresa": [
+        {
+          "id": 1,
+          "informacion": "Datos card uno",
+          "precio": 1000.0,
+          "descripcionUno": "info extra. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "id": 2,
+          "informacion": "Datos card dos",
+          "precio": 1200.0,
+          "descripcionDos": "info extra 2. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "name": "Porqué elegirnos",
+      "eleginos": [
+        {
+          "id": 1,
+          "h2": "lorem",
+          "contenido": "Información dentro de la card uno."
+        },
+        {
+          "id": 2,
+          "h2": "lorem",
+          "contenido": "Información dentro de la card dos."
+        },
+        {
+          "id": 3,
+          "h2": "lorem",
+          "contenido": "Información dentro de la card tres."
+        }
+      ]
+    },
+    {
+      "name": "Preguntas frecuentes",
+      "preguntasF": [
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta uno"
+        },
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta dos"
+        },
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta tres"
+        },
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta cuatro"
+        },
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta cinco"
+        },
+        {
+          "pregunta": "la pregunta.",
+          "respuesta": "la respuesta seis"
+        }
+      ]
+    },
+    {
+      "name": "Card",
+      "contenido": "Información adicional en formato de tarjeta.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+    },
+    {
+      "name": "Datos de contacto",
+      "contenido": {
+        "dirección": "Calle Ejemplo 123",
+        "teléfono": "+123 456 789",
+        "correo": "info@example.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.footer {
+  background-color: #273069;
+
+  .footer2 {
+    background-image: url(../../assets/cintasClaras.png);
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    align-items: flex-end;
+    p {
+      padding: 1rem 2rem 1rem 2rem;
+    }
+  }
+}
+//--------------//MEDIA Q TABLET//--------------//
+
+@media only screen and (max-width: 700px) {
+  .footer2 {
+    p {
+      color: #fff !important;
+    }
+  }
+}
